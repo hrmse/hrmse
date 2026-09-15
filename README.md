@@ -1,29 +1,55 @@
 
-# Site Reliability Engineer
+# Hamidreza Mohammadi
 
-Site Reliability Engineer with **5+ years of experience** operating and automating mission-critical Linux infrastructure at scale (**2,800+ servers**) for core banking systems.
+Site Reliability Engineer focused on reliable Linux infrastructure, Kubernetes
+platforms, infrastructure automation and observable delivery systems.
 
-## Expertise
+Based in Bucharest, Romania · [LinkedIn](https://www.linkedin.com/in/hrmse/)
 
-- **Automation:** Ansible-driven infrastructure automation  
-- **Observability:** Prometheus, Grafana, ELK Stack  
-- **Incident Management:** Structured incident response practices  
-- **Infrastructure:** Large-scale Linux systems (enterprise / banking environments)  
-- **CI/CD:** Pipeline adoption and operational improvement
+## Professional focus
 
-## Achievements
+I have 5+ years of experience operating and automating Linux infrastructure,
+including core banking environments with 2,800+ servers. My work centres on
+reducing operational toil, making services observable, and building safer
+change and incident-response workflows.
 
-- Maintained **99.9% system availability**
-- Reduced operational toil by ~50%
-- Improved MTTR through:
-  - Proactive monitoring
-  - Runbook development
-  - CI/CD adoption
+- Linux operations and automation with Ansible, Bash and Python
+- Kubernetes and AWS infrastructure with Terraform
+- Prometheus, Grafana and OpenTelemetry observability
+- CI/CD, supply-chain-aware delivery and infrastructure guardrails
+- Incident response, SLOs, runbooks and recovery drills
 
-## Certification
+LPIC-2 certified. Open to SRE, DevOps, Platform Engineering and Linux
+Infrastructure roles across Europe.
 
-- **LPIC-2 Certified**
+## Selected engineering portfolio
 
-## Open To
+The repositories below are portfolio implementations and lab blueprints. They
+document design choices, validation and operational boundaries; they do not
+claim production performance, availability or customer impact.
 
-Site Reliability Engineer (SRE), Platform Engineering, and DevOps roles across the EU.
+| Project | Engineering focus |
+| --- | --- |
+| [aws-eks-platform-blueprint](https://github.com/hrmse/aws-eks-platform-blueprint) | Private EKS, Terraform, KMS and Kubernetes security baselines |
+| [slo-control-plane](https://github.com/hrmse/slo-control-plane) | SLO/error-budget design, Prometheus alerts, Grafana and runbooks |
+| [delivery-gatekeeper](https://github.com/hrmse/delivery-gatekeeper) | Digest-only delivery, OIDC signing, SBOM, scanning and promotion gates |
+| [postgres-recovery-drills](https://github.com/hrmse/postgres-recovery-drills) | Backup integrity, restore evidence and RPO-oriented recovery drills |
+| [otel-incident-lab](https://github.com/hrmse/otel-incident-lab) | OpenTelemetry trace, metric and log correlation with Tempo, Loki and Grafana |
+| [linux-ha-edge-platform](https://github.com/hrmse/linux-ha-edge-platform) | Ansible HAProxy/Keepalived edge tier, VRRP, hardening and failover runbook |
+| [ephemeral-ssh-access](https://github.com/hrmse/ephemeral-ssh-access) | Short-lived SSH certificates, least privilege and auditable access design |
+| [reliability-command-center](https://github.com/hrmse/reliability-command-center) | Evidence-first, approval-gated incident decision records and Prometheus metrics |
+
+## Additional work
+
+- [sre-node-sentinel](https://github.com/hrmse/sre-node-sentinel) — Linux
+  configuration auditing and Prometheus textfile metrics.
+- [k8s-capacity-forecaster](https://github.com/hrmse/k8s-capacity-forecaster)
+  — review-first workload capacity recommendations from Prometheus data.
+- [dns-change-controller](https://github.com/hrmse/dns-change-controller) —
+  Terraform/OpenTofu DNS plan guardrails.
+
+## Working principles
+
+I favour repeatable automation, explicit approval boundaries, least-privileged
+access and evidence-driven operations. Good infrastructure is not just deployed:
+it is observable, testable, recoverable and documented.
