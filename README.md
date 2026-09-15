@@ -53,3 +53,8 @@ claim production performance, availability or customer impact.
 I favour repeatable automation, explicit approval boundaries, least-privileged
 access and evidence-driven operations. Good infrastructure is not just deployed:
 it is observable, testable, recoverable and documented.
+
+## Interview preparation
+
+For concise design trade-offs and discussion prompts for the pinned projects,
+see [the portfolio interview guide](docs/interview-briefs.md).
